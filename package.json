@@ -1,0 +1,40 @@
+{
+  "name": "obd2-js",
+  "version": "0.0.1",
+  "description": "OBD2 code decoder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kauczuk79/obd2-js.git"
+  },
+  "keywords": [
+    "OBD2"
+  ],
+  "author": "Robert Wesołowski",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kauczuk79/obd2-js/issues"
+  },
+  "homepage": "https://github.com/kauczuk79/obd2-js#readme",
+  "devDependencies": {
+    "angular-mocks": "^1.4.8",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-rimraf": "^0.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^1.5.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.19",
+    "karma-jasmine": "^0.3.6",
+    "karma-mocha-reporter": "^1.1.5",
+    "karma-phantomjs-launcher": "^0.2.3",
+    "phantomjs": "^1.9.19",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "angular": "^1.4.8"
+  }
+}
