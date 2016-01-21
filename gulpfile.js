@@ -5,7 +5,8 @@
         concat = require('gulp-concat'),
         sourcemaps = require('gulp-sourcemaps'),
         uglify = require('gulp-uglify'),
-        runSequence = require('run-sequence');
+        runSequence = require('run-sequence'),
+        jsdoc = require('gulp-jsdoc');
         
     gulp.task('clean', function() {
         return gulp
@@ -38,6 +39,12 @@
     
     gulp.task('dist', function () {
         runSequence('clean', 'concat', 'minify');
+    });
+    
+    gulp.task('doc', function() {
+        return gulp
+            .src('./src/*.js')
+            .pipe(jsdoc('./docs'))
     });
     
     gulp.task('watch', function() {
