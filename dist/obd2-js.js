@@ -16,13 +16,7 @@
 (function() {
     'use strict';
     /*global angular*/
-    
-    /**
-     * @memberof OBD2.codes
-     * @ngdoc factory
-     * @name answerDecoder
-     * @desc Factory to decode information from OBD2 device.
-     */
+
     function answerDecoderService() {
         var ERR_INVALID_INPUT = "Invalid input",
             
