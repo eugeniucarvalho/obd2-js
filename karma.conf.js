@@ -8,12 +8,12 @@
             files: [
                 'node_modules/angular/angular.js',
                 'node_modules/angular-mocks/angular-mocks.js',
-                'dist/obd2-js.js',
+                'src/**/*.js',
                 'tests/unit/*.js'
             ],
             reporters: ['mocha'],
             //browsers: ['Chrome', 'Firefox', 'IE'],
             browsers: ['PhantomJS'],
-            singleRun: true
+            singleRun: false
         });
     };
